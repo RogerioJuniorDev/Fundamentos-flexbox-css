@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify Content</title>
+
+    <style>
+        .container{
+            max-width: 400px;
+            border: 2px solid purple;
+            margin: 0;
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        .item{
+            background-color: palevioletred;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+
+        .flex-center{
+            justify-content: center;
+        }
+
+        .space-between{
+            justify-content: space-between;
+        }
+        
+        .space-around{
+            justify-content: space-around;
+        }
+
+        .column{
+            flex-direction: column;
+            min-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+    <h2>flex-start</h2>
+    <section class="container flex-start">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>flex-end</h2>
+    <section class="container flex-end">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>flex-center</h2>
+    <section class="container flex-center">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>space-between</h2>
+    <section class="container space-between">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>space-around</h2>
+    <section class="container space-around">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h1>column</h1>
+    <h2>flex-start column</h2>
+    <section class="container flex-start column">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>flex-end column</h2>
+    <section class="container flex-end column">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>flex-center column</h2>
+    <section class="container flex-center column">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>space-between column</h2>
+    <section class="container space-between column">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+
+    <h2>space-around column</h2>
+    <section class="container space-around column">
+        <div class="item">Item inicial</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item final</div>
+    </section>
+</body>
+</html>
